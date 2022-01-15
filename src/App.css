@@ -1,0 +1,98 @@
+.app-wrapper {
+
+  background-color: rgb(217, 241, 243);
+  display: grid;
+
+
+  grid-template-areas: 
+  "img nav"
+  "otladka otladka"
+  "work work";
+  
+  grid-template-columns: 400px 3fr;
+
+  grid-gap: 1em;
+} 
+.otladka
+{
+  grid-area: otladka;
+  background-color: rgb(217, 241, 243);
+  text-decoration: none;
+  text-align: center;
+}
+.work {
+  grid-area: work;
+}
+.img{
+  grid-area: img;
+}
+.nav{
+  grid-area: nav;
+}
+
+
+
+
+.Tumbler-on{
+  background-image:  url("/src/Images/Tumbler-Vertical-On.png");
+  position: absolute;
+  width: 6px;
+
+  height: 15px;
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+
+.Tumbler-off{
+  background-image:  url("/src/Images/Tumbler-Vertical-Off.png");
+  position: absolute;
+  margin-top: 10px;
+  width: 6px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.Tumbler-Horizon-on{
+  background-image:  url("/src/Images/Tumbler-Horizon-On.png");
+  position: absolute;
+  width: 13px;
+
+  height: 4px;
+
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+
+.Tumbler-Horizon-off{
+  background-image:  url("/src/Images/Tumbler-Horizon-Off.png");
+  position: absolute;
+  margin-left: 10px;
+  width: 13px;
+  height: 4px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.Tablo{
+  position: absolute;
+  height: 16.7px;
+  width: 8.7px;
+}
+.TabloCircle{
+  position: absolute;
+  border-radius: 50%; 
+}
+
+.LaunchRy19{
+  background-image:  url("/src/Images/Button-Launch-Ry19.png");
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+

@@ -1,0 +1,16 @@
+.fon {
+
+    
+    background-image:  url("../../Images/fon.png");
+    width: 1500px;
+    height: 1300px;
+    background-size: cover;
+}
+.alert{
+
+    background-image:  url("../../Images/Alert-1.png");
+    width: 165px;
+    height: 60px;
+    margin-left: 685px;
+     background-size: cover; 
+}

@@ -1,0 +1,15 @@
+.fon {
+
+    background-color: rgb(217, 241, 243);
+    padding: 20px;
+}
+.item a
+{
+    color: rgb(7, 163, 72);
+    text-decoration: none;
+    text-align: center;
+}
+
+.item a.activeLink{
+    color: #a30a75;
+  }
